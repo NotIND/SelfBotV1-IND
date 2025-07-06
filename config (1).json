@@ -1,7 +1,7 @@
 {
     "token": "YOUR_DISCORD_TOKEN_HERE",
     "prefix": ".",
-    "remote-users": [],
+    "remote-users": [], 
     "autoreply": {
         "messages": [
             ""
