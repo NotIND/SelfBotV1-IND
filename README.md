@@ -3,12 +3,11 @@
   <img src="https://3684636823-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAAWXLgBhsxb38Q3iF3ha%2Fsocialpreview%2FJYYwVSNx9yLnXY8adfAU%2Fbanner.png?alt=media&token=264b3ce3-6643-4b55-8990-ca5cd2516dce">
 </p>
 
-<h1 align="center">[Discord] - SelfBot (V2.1)</h1>
+<h1 align="center">[Discord] - SelfBot (V1)</h1>
 <p align="center">
-  <a href="https://github.com/AstraaDev/Discord-SelfBot/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-important">
   </a>
-  <a href="https://github.com/AstraaDev">
+  <a href="https://github.com/NotIND/">
     <img src="https://img.shields.io/github/repo-size/AstraaDev/Discord-SelfBot.svg?label=Repo%20size&style=flat-square">
   </a>
 </p>
@@ -26,7 +25,7 @@ This SelfBot provides a large variety of commands to streamline your Discord exp
 <details>
   <summary>All Commands</summary>
 
-`*astraa` - Show my social networks.  
+`*ind` - Show my social networks.  
 `changeprefix <prefix>` - Change the bot's prefix.  
 `shutdown` - Stop the selfbot.  
 `*uptime` - Returns how long the selfbot has been running.  
@@ -90,8 +89,8 @@ This SelfBot provides a large variety of commands to streamline your Discord exp
   "autoreply": {
     // List of messages that the bot will use to auto-reply
     "messages": [
-      "https://github.com/AstraaDev/Discord-SelfBot",
-      "https://discord.gg/PKR7nM9j9U"
+      "https://github.com/NotIND/SelfBotV1-IND/",
+
     ],
     // Channels where the bot will enable auto-reply functionality
     "channels": ["CHANNEL-ID-1", "CHANNEL-ID-2"],
@@ -118,7 +117,7 @@ This SelfBot provides a large variety of commands to streamline your Discord exp
 - **Automated**: Run `setup.bat`. Launch the new file created.
 - **Manual**:
   ```bash
-  $ git clone https://github.com/AstraaDev/Discord-SelfBot.git
+  $ git clone https://github.com/NotIND/SelfBotV1-IND.git
   $ python -m pip install -r requirements.txt
   $ python main.py
   ```
@@ -156,21 +155,11 @@ Messages, channels, and users for autoreply are stored in `config/config.json`:
 ```json
 {
   "messages": [
-    "https://github.com/AstraaDev/Discord-SelfBot",
-    "https://discord.gg/PKR7nM9j9U"
+    "https://github.com/NotIND/SelfBotV1-IND/"
   ],
   "channels": ["123456789012345678"],
   "users": ["112233445566778899"]
 }
 ```
 
----
-
-## Additional Information
-- Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
-- Contributions are welcome! Open an issue or create a pull request.
-
----
-
-## Credits
-This project is a restructured and improved version of the original [@humza1400](https://github.com/humza1400) SelfBot (2019).
+--
