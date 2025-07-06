@@ -1,0 +1,19 @@
+{
+    "token": "YOUR_DISCORD_TOKEN_HERE",
+    "prefix": ".",
+    "remote-users": [],
+    "autoreply": {
+        "messages": [
+            ""
+        ],
+        "channels": [],
+        "users": []
+    },
+    "afk": {
+        "enabled": false,
+        "message": "I am currently AFK. I will respond as soon as possible!"
+    },
+    "copycat": {
+        "users": []
+    }
+}
